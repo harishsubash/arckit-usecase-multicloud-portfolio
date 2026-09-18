@@ -1,0 +1,39 @@
+{
+  "generated": "2026-09-18T04:42:22.000Z",
+  "scanned": {
+    "projects": 3,
+    "artifacts": 28
+  },
+  "summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "total": 0
+  },
+  "byType": {
+    "STALE-RSCH": 0,
+    "FORGOTTEN-ADR": 0,
+    "UNRESOLVED-COND": 0,
+    "STALE-EXT": 0,
+    "ORPHAN-REQ": 0,
+    "MISSING-TRACE": 0,
+    "VERSION-DRIFT": 0
+  },
+  "projects": [
+    {
+      "id": "001-aws-order-processing",
+      "artifacts": 9,
+      "findings": []
+    },
+    {
+      "id": "002-azure-support-copilot",
+      "artifacts": 9,
+      "findings": []
+    },
+    {
+      "id": "003-gcp-iot-analytics",
+      "artifacts": 9,
+      "findings": []
+    }
+  ]
+}

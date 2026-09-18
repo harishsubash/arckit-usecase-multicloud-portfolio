@@ -1,0 +1,214 @@
+{
+  "generated": "2026-09-18T04:42:22.000Z",
+  "repository": {
+    "name": "arckit-usecase-multicloud-portfolio"
+  },
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
+  "guides": [],
+  "roleGuides": [],
+  "global": [
+    {
+      "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
+      "title": "Architecture Principles",
+      "category": "Governance",
+      "documentId": "ARC-000-PRIN-v1.0"
+    }
+  ],
+  "globalExternal": [],
+  "typeCategories": {
+    "PRIN": "Governance",
+    "STKE": "Discovery",
+    "REQ": "Discovery",
+    "RISK": "Governance",
+    "SOBC": "Planning",
+    "STRAT": "Planning",
+    "PLAT": "Architecture",
+    "ADR": "Architecture"
+  },
+  "projects": [
+    {
+      "id": "001-aws-order-processing",
+      "name": "AWS: Order Processing Platform",
+      "documents": [
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-PLAT-v1.0.md",
+          "title": "Platform Design",
+          "category": "Architecture",
+          "documentId": "ARC-001-PLAT-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-PRIN-v1.0.md",
+          "title": "Architecture Principles",
+          "category": "Governance",
+          "documentId": "ARC-001-PRIN-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-REQ-v1.0.md",
+          "title": "Requirements",
+          "category": "Discovery",
+          "documentId": "ARC-001-REQ-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-RISK-v1.0.md",
+          "title": "Risk Register",
+          "category": "Governance",
+          "documentId": "ARC-001-RISK-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-SOBC-v1.0.md",
+          "title": "Business Case",
+          "category": "Planning",
+          "documentId": "ARC-001-SOBC-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-STKE-v1.0.md",
+          "title": "Stakeholder Analysis",
+          "category": "Discovery",
+          "documentId": "ARC-001-STKE-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/ARC-001-STRAT-v1.0.md",
+          "title": "Architecture Strategy",
+          "category": "Planning",
+          "documentId": "ARC-001-STRAT-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/decisions/ARC-001-ADR-001-v1.0.md",
+          "title": "ADR-001: Use SQS + Lambda over Kinesis for order-event ingestion",
+          "category": "Architecture",
+          "documentId": "ARC-001-ADR-001-v1.0"
+        },
+        {
+          "path": "projects/001-aws-order-processing/decisions/ARC-001-ADR-002-v1.0.md",
+          "title": "ADR-002: Use DynamoDB single-table design over relational RDS for order state",
+          "category": "Architecture",
+          "documentId": "ARC-001-ADR-002-v1.0"
+        }
+      ]
+    },
+    {
+      "id": "002-azure-support-copilot",
+      "name": "Azure: Customer Support Copilot",
+      "documents": [
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-PLAT-v1.0.md",
+          "title": "Platform Design",
+          "category": "Architecture",
+          "documentId": "ARC-002-PLAT-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-PRIN-v1.0.md",
+          "title": "Architecture Principles",
+          "category": "Governance",
+          "documentId": "ARC-002-PRIN-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-REQ-v1.0.md",
+          "title": "Requirements",
+          "category": "Discovery",
+          "documentId": "ARC-002-REQ-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-RISK-v1.0.md",
+          "title": "Risk Register",
+          "category": "Governance",
+          "documentId": "ARC-002-RISK-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-SOBC-v1.0.md",
+          "title": "Business Case",
+          "category": "Planning",
+          "documentId": "ARC-002-SOBC-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-STKE-v1.0.md",
+          "title": "Stakeholder Analysis",
+          "category": "Discovery",
+          "documentId": "ARC-002-STKE-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/ARC-002-STRAT-v1.0.md",
+          "title": "Architecture Strategy",
+          "category": "Planning",
+          "documentId": "ARC-002-STRAT-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/decisions/ARC-002-ADR-001-v1.0.md",
+          "title": "ADR-001: Use Azure AI Search for RAG retrieval instead of a self-hosted vector database",
+          "category": "Architecture",
+          "documentId": "ARC-002-ADR-001-v1.0"
+        },
+        {
+          "path": "projects/002-azure-support-copilot/decisions/ARC-002-ADR-002-v1.0.md",
+          "title": "ADR-002: Confidence-threshold handoff to human agents instead of full AI autonomy",
+          "category": "Architecture",
+          "documentId": "ARC-002-ADR-002-v1.0"
+        }
+      ]
+    },
+    {
+      "id": "003-gcp-iot-analytics",
+      "name": "GCP: Fleet IoT Analytics Platform",
+      "documents": [
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-PLAT-v1.0.md",
+          "title": "Platform Design",
+          "category": "Architecture",
+          "documentId": "ARC-003-PLAT-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-PRIN-v1.0.md",
+          "title": "Architecture Principles",
+          "category": "Governance",
+          "documentId": "ARC-003-PRIN-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-REQ-v1.0.md",
+          "title": "Requirements",
+          "category": "Discovery",
+          "documentId": "ARC-003-REQ-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-RISK-v1.0.md",
+          "title": "Risk Register",
+          "category": "Governance",
+          "documentId": "ARC-003-RISK-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-SOBC-v1.0.md",
+          "title": "Business Case",
+          "category": "Planning",
+          "documentId": "ARC-003-SOBC-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-STKE-v1.0.md",
+          "title": "Stakeholder Analysis",
+          "category": "Discovery",
+          "documentId": "ARC-003-STKE-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/ARC-003-STRAT-v1.0.md",
+          "title": "Architecture Strategy",
+          "category": "Planning",
+          "documentId": "ARC-003-STRAT-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/decisions/ARC-003-ADR-001-v1.0.md",
+          "title": "ADR-001: Use Pub/Sub + Dataflow over self-managed Kafka + Flink for telemetry ingestion",
+          "category": "Architecture",
+          "documentId": "ARC-003-ADR-001-v1.0"
+        },
+        {
+          "path": "projects/003-gcp-iot-analytics/decisions/ARC-003-ADR-002-v1.0.md",
+          "title": "ADR-002: Use Bigtable for current-vehicle-state serving over querying BigQuery directly",
+          "category": "Architecture",
+          "documentId": "ARC-003-ADR-002-v1.0"
+        }
+      ]
+    }
+  ],
+  "dependencyGraph": {
+    "nodes": {},
+    "edges": []
+  }
+}
