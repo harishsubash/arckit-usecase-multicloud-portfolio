@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T04:42:22.000Z",
+  "generated": "2026-09-18T05:00:40.000Z",
   "repository": {
     "name": "arckit-usecase-multicloud-portfolio"
   },
@@ -15,6 +15,7 @@
     }
   ],
   "globalExternal": [],
+  "globalPolicies": [],
   "typeCategories": {
     "PRIN": "Governance",
     "STKE": "Discovery",
@@ -207,6 +208,9 @@
       ]
     }
   ],
+  "projectHealth": {
+    "projects": []
+  },
   "dependencyGraph": {
     "nodes": {},
     "edges": []
